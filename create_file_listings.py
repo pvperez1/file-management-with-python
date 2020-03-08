@@ -7,7 +7,7 @@ import pathlib
 #a more readable date format for humans
 def convert_date(timestamp):
     d = datetime.utcfromtimestamp(timestamp)
-    formatted_date = d.strftime('%d %b %Y')
+    formatted_date = d.strftime('%d-%b-%Y')
     return formatted_date
 
 #Enter '.' if you want to create listings in the current Directory
